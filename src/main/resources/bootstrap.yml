@@ -1,0 +1,12 @@
+server:
+  port: 8280
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luo8025/config.git
+          username: 18890971215@163.com
+          password: luo5211150
