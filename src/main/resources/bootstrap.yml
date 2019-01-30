@@ -10,3 +10,17 @@ spring:
           uri: https://github.com/luo8025/config.git
           username: 18890971215@163.com
           password: luo5211150
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1125/eureka/
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
